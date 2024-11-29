@@ -1,0 +1,53 @@
+- id: sharpdepth
+  title: "SharpDepth: Sharpening Metric Depth Predictions Using Diffusion Distillation"
+  venue: Under review, 2024
+  description: "Harmonizing diffusion-based depth estimation and metric depth estimation"
+  project_page: "https://sharpdepth.github.io/"
+  arxiv: 2411.18229
+  image: sharp_depth.jpg
+  authors:
+    - author_id: "haipd"
+      sign: "*"
+    - author_id: "tungdt"
+      sign: "*"
+    - author_id: "phongnh"
+      sign: ""
+    - author_id: "sonhb"
+      sign: ""
+    - author_id: "khoindm"
+      sign: ""
+    - author_id: "rangnhm"
+      sign: ""
+- id: liftrefine
+  title: "LiftRefine: Progressively Refined View Synthesis from 3D Lifting with Volume-Triplane Representations"
+  venue: Under review, 2024
+  description: "Large reconstruction model with 2D diffusion model"
+  project_page: "https://drive.google.com/file/d/1EUAe8FPSm2b_5Jtc6LJudr3rx52oPavM/view?usp=sharing"
+  image: liftrefine.jpg
+  authors:
+    - author_id: "tungdt"
+      sign: ""
+    - author_id: "thuannh"
+      sign: ""
+    - author_id: "anhtt"
+      sign: ""
+    - author_id: "rangnhm"
+      sign: ""
+    - author_id: "sonhb"
+      sign: ""
+# - id: creps
+#   title: "Efficient Scale-Invariant Generator with Column-Row Entangled Pixel Synthesis"
+#   venue: CVPR, 2023
+#   description: "An efficient and geometry-invariant generator for synthesizing high-resolution images without using spatial convolutions or a coarse-to-fine design."
+#   project_page: "https://thuanz123.github.io/creps/"
+#   github: VinAIResearch/CREPS
+#   arxiv: 2303.14157
+#   image: creps_before.jpg
+#   image_mouseover: creps_after.mp4
+#   authors:
+#     - author_id: "thuannh"
+#       sign: "*"
+#     - author_id: "thanhlv"
+#       sign: "*"
+#     - author_id: "anhtt"
+#       sign: ""

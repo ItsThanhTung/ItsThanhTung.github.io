@@ -1,0 +1,34 @@
+tungdt:
+  first_name: Tung
+  last_name: Do
+  website: https://ItsThanhTung.github.io/
+  is_me: true
+thuannh:
+  first_name: Thuan
+  middle_name: Hoang	
+  last_name: Nguyen
+  website: https://thuanz123.github.io/
+anhtt:
+  first_name: Anh
+  last_name: Tran
+  website: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl/
+haipd:
+  first_name: Duc-Hai
+  last_name: Pham
+  website: https://github.com/haiphamcse
+sonhb:
+  first_name: Son-Hua
+  last_name: Binh
+  website: https://sonhua.github.io/
+khoindm:
+  first_name: Khoi
+  last_name: Nguyen
+  website: https://www.khoinguyen.org/
+rangnhm:
+  first_name: Rang
+  last_name: Nguyen
+  website: https://rangnguyen.github.io/
+phongnh:
+  first_name: Phong
+  last_name: Nguyen
+  website: https://phongnhhn.info/
