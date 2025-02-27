@@ -1,6 +1,6 @@
 - id: sharpdepth
   title: "SharpDepth: Sharpening Metric Depth Predictions Using Diffusion Distillation"
-  venue: Under review, 2024
+  venue: CVPR 2025
   description: "Harmonizing diffusion-based depth estimation and metric depth estimation"
   project_page: "https://sharpdepth.github.io/"
   arxiv: 2411.18229
