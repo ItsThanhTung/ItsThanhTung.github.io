@@ -20,7 +20,7 @@
       sign: ""
 - id: liftrefine
   title: "LiftRefine: Progressively Refined View Synthesis from 3D Lifting with Volume-Triplane Representations"
-  venue: Under review, 2024
+  venue: AI for Content Creation Workshop at CVPR2025
   description: "Large reconstruction model with 2D diffusion model"
   arxiv: 2412.14464
   image: liftrefine.jpg
