@@ -4,7 +4,7 @@
   description: "Harmonizing diffusion-based depth estimation and metric depth estimation"
   project_page: "https://sharpdepth.github.io/"
   arxiv: 2411.18229
-  image: sharp_depth.jpg
+  image: sharpdepth.gif
   authors:
     - author_id: "haipd"
       sign: "*"
