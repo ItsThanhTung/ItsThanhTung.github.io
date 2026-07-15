@@ -1,209 +1,198 @@
----
-layout: null
----
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>{{ site.name }}</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
-
-  <link rel="icon" type="image/x-icon" href="/images/icon.ico">
-
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tung Do — computer vision researcher">
+  <title>Tung Do</title>
+  <link rel="icon" type="image/x-icon" href="images/icon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
-  <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
-  <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script defer src="{{ '/js/fontawesome.all.min.js' | relative_url }}"></script>
-  <script src="{{ '/js/index.js' | relative_url }}"></script>
+  <link href="css/index.css" rel="stylesheet">
 </head>
-
 <body>
-
-  <section class="hero">
-    <div class="hero-body container is-max-desktop">
-      <div class="columns is-vcentered">
-
-        <div class="column is-4">
-          <div class="portrait">
-            <img src="{{ '/images/portrait.jpg' | relative_url }}" />
-          </div>
-        </div>
-
-        <div class="column">
-          <h1 class="title">
-            <b>Hello, I'm {{ site.name }}</b>
-          </h1>
-          <div class="content has-text-justified">
-            {{ site.description | markdownify }}
-            <div class="buttons">
-              <a class="external-link button is-light" href="https://drive.google.com/file/d/1r5CBGZCn8naY_Ijs2Cpcv-a1S3YvAbDd/view?usp=sharing">
-                <span class="icon"><i class="fas fa-file"></i></span>
-                <span>CV</span>
-              </a>
-
-              <a class="external-link button is-light"
-                href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
-                <span class="icon"><i class="ai ai-google-scholar"></i></span>
-                <span>Scholar</span>
-              </a>
-
-              <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}">
-                <span class="icon"><i class="fab fa-github"></i></span>
-                <span>Github</span>
-              </a>
-
-              <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
-                <span class="icon"><i class="fab fa-twitter"></i></span>
-                <span>Twitter</span>
-              </a>
-            </div>
-
-          </div>
+  <main class="page">
+    <section class="hero">
+      <div class="portrait">
+        <img src="images/portrait.jpeg" alt="Portrait of Tung Do">
+      </div>
+      <div class="hero-copy">
+        <h1>Tung Do</h1>
+        <p class="lede">
+          I am currently a master’s student in Computer Vision at
+          <a href="https://mbzuai.ac.ae/">MBZUAI</a>,
+          under the supervision of
+          <a href="https://www.hao-li.com/Hao_Li/Hao_Li_-_about_me.html">Prof. Hao Li</a>.
+          I was a research resident at Qualcomm AI Research (formerly
+          <a href="https://www.vinai.io/vinai-ai-residency/">VinAI</a>),
+          advised by
+          <a href="https://sonhua.github.io/">Prof. Binh-Son Hua</a> (primary)
+          and
+          <a href="https://rangnguyen.github.io/">Dr. Rang Nguyen</a> (secondary).
+        </p>
+        <p class="lede">
+          Before that, I received a B.Eng. in Computer Engineering from the
+          <a href="https://en.uit.edu.vn/">University of Information Technology - VNUHCM</a>.
+        </p>
+        <div class="actions">
+          <a href="https://drive.google.com/file/d/1r5CBGZCn8naY_Ijs2Cpcv-a1S3YvAbDd/view?usp=sharing">
+            <i class="fas fa-file"></i> CV
+          </a>
+          <a href="https://scholar.google.com/citations?user=R_85BCoAAAAJ">
+            <i class="ai ai-google-scholar"></i> Scholar
+          </a>
+          <a href="https://github.com/ItsThanhTung">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://twitter.com/itsthanhtung87">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- News. -->
-  <div class="hr">
-    <div class="container">
-      <hr>
-    </div>
-  </div>
+    <section class="section" id="news">
+      <div class="section-header">
+        <h2>News</h2>
+      </div>
+      <ul class="news-list">
+        <li>
+          <div class="news-date">Jul 2026</div>
+          <div class="news-body">
+            <a href="https://sphere-latent-encoder.github.io/"><em>Sphere Latent Encoder</em></a> is out!
+            We show that few-step image generation becomes more efficient and stable by
+            decoupling a fixed image encoder from a latent denoiser trained entirely on
+            the hypersphere — outperforming Sphere Encoder on ImageNet-1K, Animal-Faces,
+            and Oxford-Flowers.
+          </div>
+        </li>
+        <li>
+          <div class="news-date">May 2025</div>
+          <div class="news-body">I will be at CVPR 2025 (Nashville) to present SharpDepth.</div>
+        </li>
+        <li>
+          <div class="news-date">May 2025</div>
+          <div class="news-body">I will join MBZUAI to pursue a Master’s degree in Computer Vision.</div>
+        </li>
+        <li>
+          <div class="news-date">Apr 2025</div>
+          <div class="news-body">Started as a research resident at Qualcomm AI Research.</div>
+        </li>
+        <li>
+          <div class="news-date">Feb 2025</div>
+          <div class="news-body">
+            <a href="https://arxiv.org/abs/2411.18229"><em>SharpDepth</em></a> has been accepted at CVPR 2025.
+          </div>
+        </li>
+        <li>
+          <div class="news-date">Oct 2024</div>
+          <div class="news-body">
+            <a href="https://arxiv.org/abs/2411.18229"><em>SharpDepth</em></a> has been released.
+          </div>
+        </li>
+        <li>
+          <div class="news-date">Jun 2024</div>
+          <div class="news-body">
+            <a href="https://drive.google.com/file/d/1EUAe8FPSm2b_5Jtc6LJudr3rx52oPavM/view?usp=sharing"><em>LiftRefine</em></a> has been released.
+          </div>
+        </li>
+        <li>
+          <div class="news-date">Feb 2023</div>
+          <div class="news-body">
+            Joined <a href="https://www.vinai.io/"><em>VinAI Research</em></a> as a research resident.
+          </div>
+        </li>
+      </ul>
+    </section>
 
-  <section class="section">
-    <div class="container is-max-desktop">
-
-      <h2 class="title is-3">News</h2>
-      <div class="content">
-        <ul>
-          {% for news in site.data.news %}
-          <li>
-            <b>{{ news.date }}</b>: {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
-          </li>
-          {% endfor %}
-        </ul>
+    <section class="section" id="publications">
+      <div class="section-header">
+        <h2>Publications</h2>
+        <div class="section-note">* equal contribution</div>
       </div>
 
-      <h2 class="title is-3">Publications<br><small><small><sup>* means equal contribution</sup></small></small></h2>
-      {% for publication in site.data.publications %}
-      <div class="publication-block columns {% if publication.image_mouseover %}publication-mousecell{% endif %}">
-
-        <div class="column is-2">
-          <div class="publication-image {% if publication.image_mouseover %}publication-mousecell{% endif %}">
-            {% if publication.image_mouseover contains "mp4" %}
-            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
-              <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            {% endif %}
-            <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
+      <article class="publication">
+        <div class="publication-image">
+          <img alt="Sphere Latent Encoder preview" src="images/sphere_latent_encoder.jpg">
+        </div>
+        <div>
+          <h3 class="publication-title">
+            <a href="https://sphere-latent-encoder.github.io/">Efficient Image Synthesis with Sphere Latent Encoder</a>
+          </h3>
+          <div class="publication-authors">
+            <span class="author-me">Tung Do</span>,
+            <a href="https://thuanz123.github.io/">Thuan Hoang Nguyen</a>,
+            <a href="https://www.hao-li.com/Hao_Li/Hao_Li_-_about_me.html">Hao Li</a>
+          </div>
+          <div class="publication-venue">arXiv preprint, 2026</div>
+          <p class="publication-description">Few-step image generation by decoupling encoding from denoising in a spherical latent space.</p>
+          <div class="publication-links">
+            <a href="https://sphere-latent-encoder.github.io/"><i class="fas fa-globe-asia"></i> Project</a>
+            <a href="https://arxiv.org/abs/2605.15592"><i class="ai ai-arxiv"></i> arXiv</a>
           </div>
         </div>
+      </article>
 
-        <div class="column">
-          <div class="content">
-            <h3 class="publication-title"><a href="{{ publication.project_page }}">{{ publication.title }}</a></h3>
-            <div class="publication-authors">
-              {% for author_dict in publication.authors %}
-              {% assign author = site.data.authors[author_dict.author_id] %}
-              <span class="author-block {% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me %}
-                {{author_id}} {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{{ author_dict.sign }}{% if forloop.last == false %},{%
-                endif %}
-                {% else %}
-                <a href="{{ author.website }}"> {{ author.first_name }} {{ author.middle_name }} {{ author.last_name
-                  }}{{ author_dict.sign }}</a>{% if forloop.last == false %},{% endif %}
-                {% endif %}
-              </span>
-              {% endfor %}
-            </div>
-            <div class="publication-venue">
-              <span>{{ publication.venue }}</span>
-              {% for award in publication.awards %}
-                <span class="publication-venue-emph">{{ award }}<span>
-              {% endfor %}
-            </div>
-            <p class="publication-description">{{ publication.description }}</p>
-            <!-- Publication Links. -->
-            <div class="publication-links buttons field has-addons">
-              {% if publication.project_page %}
-              <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
-                <span class="icon"><i class="fas fa-globe-asia"></i></span>
-                <span>Project Page</span>
-              </a>
-              {% endif %}
-              {% if publication.arxiv %}
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
-                <span class="icon"><i class="ai ai-arxiv"></i></span>
-                <span>arXiv</span>
-              </a>
-              {% endif %}
-              {% if publication.github %}
-              <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
-                <span class="icon"><i class="fa fab fa-github"></i></span>
-                <span>GitHub</span>
-              </a>
-              {% endif %}
-            </div>
-            <!--/ Publication Links. -->
+      <article class="publication">
+        <div class="publication-image">
+          <img alt="SharpDepth preview" src="images/sharpdepth.gif">
+        </div>
+        <div>
+          <h3 class="publication-title">
+            <a href="https://sharpdepth.github.io/">SharpDepth: Sharpening Metric Depth Predictions Using Diffusion Distillation</a>
+          </h3>
+          <div class="publication-authors">
+            <a href="https://github.com/haiphamcse">Duc-Hai Pham*</a>,
+            <span class="author-me">Tung Do*</span>,
+            <a href="https://phongnhhn.info/">Phong Nguyen</a>,
+            <a href="https://sonhua.github.io/">Son-Hua Binh</a>,
+            <a href="https://www.khoinguyen.org/">Khoi Nguyen</a>,
+            <a href="https://rangnguyen.github.io/">Rang Nguyen</a>
+          </div>
+          <div class="publication-venue">CVPR 2025</div>
+          <p class="publication-description">Harmonizing diffusion-based depth estimation and metric depth estimation.</p>
+          <div class="publication-links">
+            <a href="https://sharpdepth.github.io/"><i class="fas fa-globe-asia"></i> Project</a>
+            <a href="https://arxiv.org/abs/2411.18229"><i class="ai ai-arxiv"></i> arXiv</a>
           </div>
         </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
+      </article>
 
-  <center>
-    <div style="display:none; color:#dedede; font-size:.5em;">
-      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=pNLGJt6ZdfLOuyRVy3o24cMmt0XiFacbPKTbeI1VRrQ&cl=ffffff&w=a"></script>
-    </div>
-  </center>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="content footer-links has-text-centered">
-        <a href="mailto:{{ site.email }}">
-          <i class="fas fa-envelope"></i>
-        </a>
-        <a class="external-link" href="https://github.com/{{ site.github_username }}">
-          <i class="fab fa-github"></i>
-        </a>
-        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
-          <i class="ai ai-google-scholar"></i>
-        </a>
-      </div>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-8">
-          <div class="content">
-            <p>
-            Feel free to <a href="https://github.com/ItsThanhTung/ItsThanhTung.github.io">borrow this template</a>.
-            </p>
+      <article class="publication">
+        <div class="publication-image">
+          <img alt="LiftRefine preview" src="images/liftrefine.jpg">
+        </div>
+        <div>
+          <h3 class="publication-title">
+            <a href="https://arxiv.org/abs/2412.14464">LiftRefine: Progressively Refined View Synthesis from 3D Lifting with Volume-Triplane Representations</a>
+          </h3>
+          <div class="publication-authors">
+            <span class="author-me">Tung Do</span>,
+            <a href="https://thuanz123.github.io/">Thuan Hoang Nguyen</a>,
+            <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl/">Anh Tran</a>,
+            <a href="https://rangnguyen.github.io/">Rang Nguyen</a>,
+            <a href="https://sonhua.github.io/">Son-Hua Binh</a>
+          </div>
+          <div class="publication-venue">AI for Content Creation Workshop @ CVPR 2025</div>
+          <p class="publication-description">Large reconstruction model with 2D diffusion model.</p>
+          <div class="publication-links">
+            <a href="https://arxiv.org/abs/2412.14464"><i class="ai ai-arxiv"></i> arXiv</a>
           </div>
         </div>
-      </div>
-    </div>
-  </footer>
+      </article>
+    </section>
 
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="mailto:itsthanhtung@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/ItsThanhTung" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://scholar.google.com/citations?user=R_85BCoAAAAJ" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      </div>
+      <p>Feel free to <a href="https://github.com/ItsThanhTung/ItsThanhTung.github.io">borrow this template</a>.</p>
+    </footer>
+  </main>
 </body>
-
 </html>
