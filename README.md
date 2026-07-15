@@ -2,7 +2,7 @@
 
 Personal homepage for [Tung Do](https://ItsThanhTung.github.io/).
 
-This is a static GitHub Pages site (same approach as the Sphere Latent Encoder project page). Open `index.html` locally to preview.
+This is a static GitHub Pages site (same approach as the Sphere Latent Encoder project page): a single `index.html` with inlined CSS. Open `index.html` in a browser to preview — no local server needed.
 
 - Borrowed from [this template](https://github.com/keunhong/keunhong.github.io)
 - Feel free to borrow it and cite the original.
